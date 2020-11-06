@@ -1,0 +1,22 @@
+{
+  "name": "screenshot-and-upload-to-ali-oss",
+  "version": "1.0.0",
+  "description": "Take a screenshot of the site's homepage, compress it, and upload it to ali oss.",
+  "main": "bin/index.js",
+  "bin": {
+    "screenshot": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "helper"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "ali-oss": "^6.11.2",
+    "commander": "^6.2.0",
+    "tinify": "^1.6.0-beta.2"
+  },
+  "repository": "git@github.com:nicejade/screenshot-and-upload-to-ali-oss.git",
+  "author": "JadeYang(杨琼璞) <jeffygisgreat@gmail.com>",
+  "license": "MIT"
+}
