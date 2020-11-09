@@ -23,7 +23,7 @@ const main = async targetUrl => {
     print('success', `✔︎ 已经成功使用 tinypng 为所得截图进行压缩.`)
   }
   const targetImgPath = getScreenshotPathByUrl(targetUrl)
-  putImg2Oss(targetUrl, fs.createReadStream(targetImgPath))
+  !program.noupload && putImg2Oss(targetUrl, fs.createReadStream(targetImgPath))
 }
 
 main(program.url)
