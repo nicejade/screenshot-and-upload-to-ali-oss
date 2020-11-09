@@ -9,9 +9,9 @@ program.version(version, '-v, --vers', 'output the current version')
 
 program
   .option('-u, --url <url>', '指定要截图网站的 url 地址.')
-  .option('-n, --noscreenshot', '无需截图，上传本地图片.')
-  .option('-t, --notinify', '不压缩图片，直接上传.')
-  .option('-u, --noupload', '不上传截图至指定的 OSS.')
+  .option('-ns, --noscreenshot', '无需截图，上传本地图片.')
+  .option('-nt, --notinify', '不压缩图片，直接上传.')
+  .option('-nu, --noupload', '不上传截图至指定的 OSS.')
 
 program.parse(process.argv)
 
