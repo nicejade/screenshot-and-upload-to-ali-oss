@@ -2,7 +2,7 @@
 node_modules
 
 # screenshot
-screenshot
+screenshot/*.png
 
 # secret.config.js
 secret.config.js
